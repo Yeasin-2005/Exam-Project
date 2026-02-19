@@ -9,6 +9,7 @@ import Background from './Components/Background'
 import Work from './Components/Work'
 import FeedBack from './Components/FeedBack'
 import Blog from './Components/Blog'
+import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
     <Background/>
     <FeedBack/>
     <Blog/>
+    <Footer/>
     </>
   )
 }

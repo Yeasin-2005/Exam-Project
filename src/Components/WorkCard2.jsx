@@ -11,7 +11,7 @@ const WorkCard2 = ({ImgSrc}) => {
             <h2 className='text-xl font-bold text-white'>Deloitte</h2>
             <p>Project was about precision and information...</p>
         </div>
-        <div className='h-15 w-15 rounded-full border border-para flex justify-center items-center'>
+        <div className='h-15 w-15 rounded-full border border-para flex justify-center items-center cursor-pointer'>
             <GoArrowUpRight className='text-white'/>
         </div>
     </Flex> 

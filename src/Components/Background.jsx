@@ -16,6 +16,23 @@ Achievements"
         className="text-center"
         />
         </div>
+        {/* <ul className='bg-primary text-white items-center w-100 pl-1.25 pr-7.5 flex justify-between mx-auto py-1.25 rounded-2xl text-[15px] font-bold'>
+            <li className='py-2.75 px-6.5 bg-black rounded-3xl'>Experiences</li>
+            <li>Education</li>
+            <li>Awards</li>
+        </ul> */}
+        <ul className='bg-primary text-white items-center mb-10 w-100 pl-1.25 pr-1.25 flex justify-between mx-auto py-1.25 rounded-2xl text-[15px] font-bold'>
+    
+    <li className='py-2.75 px-6.5 rounded-3xl bg-transparent cursor-pointer  hover:bg-black transition-colors duration-200'>
+        Experiences
+    </li>
+    <li className='py-2.75 px-6.5 rounded-3xl bg-transparent cursor-pointer hover:bg-black transition-colors duration-200'>
+        Education
+    </li>
+    <li className='py-2.75 px-6.5 rounded-3xl bg-transparent cursor-pointer hover:bg-black transition-colors duration-200'>
+        Awards
+    </li>
+</ul>
       <Container className="border border-para p-15.5 rounded-2xl">
         <div>
             <Flex className="justify-between items-start pb-10">

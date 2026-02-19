@@ -17,8 +17,8 @@ const Work = () => {
         titel="Recent work for MY clients!"
         />
         <Flex className="gap-4">
-            <div className='h-15 w-15 rounded-full border border-para flex justify-center items-center'><FaArrowLeftLong className='text-white'/></div>
-            <div className='h-15 w-15 rounded-full border border-para flex justify-center items-center'><FaArrowRightLong className='text-white'/></div>
+            <div className='h-15 w-15 rounded-full border border-para flex justify-center items-center cursor-pointer'><FaArrowLeftLong className='text-white'/></div>
+            <div className='h-15 w-15 rounded-full border border-para flex justify-center items-center cursor-pointer'><FaArrowRightLong className='text-white'/></div>
         </Flex>
         </Flex>
       </Container>
