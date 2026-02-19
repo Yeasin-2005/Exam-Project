@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm:540px ;
+  --breakpoint-md:720px ;
+  --breakpoint-lg:960px ;
+  --breakpoint-xl:1170px ;
+  --breakpoint-xxl:1320px ;
+  --color-primary:#8750F7;
+  --color-secondary:#2E314C;
+  --color-body:#1b132c;
+  --color-para:rgba(255, 255, 255, 0.712);
+}
+ @layer utilities{
+  .container{
+    margin: auto;
+  }
+ }
+ body{
+  background-color: #1b132c;
+ }
+ p{
+  color:rgba(255, 255, 255, 0.712) ;
+ }
